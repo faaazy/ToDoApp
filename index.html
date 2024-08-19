@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/icon.png" type="image/svg" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>ToDoApp</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-header">
+          <form id="form" class="card-form">
+            <input type="text" id="taskInput" placeholder="Add a new task" required />
+            <button type="submit" id="formBtn"><img src="./img/Plus.svg" alt="" /></button>
+          </form>
+        </div>
+        <div class="card-tasks">
+          <div class="card-title">Tasks to do - 0</div>
+          <ul class="card-list" id="tasksList"></ul>
+        </div>
+        <div class="card-done">
+          <div class="card-title card-title-done">Done - 0</div>
+          <ul class="card-list" id="tasksDoneList"></ul>
+        </div>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
