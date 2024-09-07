@@ -1,4 +1,4 @@
-# ToDoApp
+# [ToDoApp](https://faaazy.github.io/ToDoApp/)
 
 my first todo app(very unique project nowadays)
 
